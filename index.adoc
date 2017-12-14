@@ -1,0 +1,55 @@
+= My Document's Title
+Doc Writer <doc.writer@asciidoctor.org>
+v1.0, 2014-01-01
+
+My document provides...
+
+== java demo code
+
+IMPORTANT: Dont't do just like this
+
+[source,java]
+
+----
+ public class Demo{
+
+  String name;<1>
+  int age;<2>
+}
+----
+<1> don't do like this please ensure is scope
+<2> just like  <1>
+[qanda]
+
+what is Asciidoctor::
+   an tools
+
+what can i user it to do::
+   losts of things to do
+
+include::abount.adoc[]
+
+[source,xml]
+----
+<section>
+  <title>Section Title</title> <!--1-->
+</section>
+----
+<1> The section title is required.
+
+[NOTE]
+====
+this is a demo
+
+
+[source,xml]
+----
+   <dependency>
+     <verison></version>
+     <page></page>
+   </dependency>
+----
+====
+
+
+{doctime} by  @rong
